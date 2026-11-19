@@ -74,7 +74,20 @@ window.LAB = {
       // { name:{en:"",ko:""}, role:{en:"M.S. Student",ko:"석사과정"}, photo:"img/x.jpg", interests:[{en:"",ko:""}], email:"", scholar:"" }
     ],
     undergrad: [],
-    alumni: []
+    alumni: [
+      {
+        name: { en: "Muhammad Ali Iqbal", ko: "무함마드 알리 이크발" },
+        role: { en: "Postdoctoral Researcher (Alumni)", ko: "박사후연구원 (졸업생)" },
+        photo: "img/iqbal.jpg",
+        interests: [
+          { en: "Open-World Object Detection", ko: "오픈월드 객체 검출" },
+          { en: "Deep Learning", ko: "딥러닝" },
+          { en: "Medical Imaging", ko: "의료 영상" }
+        ],
+        email: "",
+        scholar: "https://scholar.google.com/citations?user=zTVNfasAAAAJ&hl=en"
+      }
+    ]
   },
 
   news: [
@@ -88,6 +101,20 @@ window.LAB = {
 
   // Publications (from Google Scholar). Titles stay in English.
   publications: [
+    { year: 2026, title: "ConvWaveFormer: a hybrid wavelet and CNN-transformer framework for ECG biometric identification", authors: "MS Asif, Y Choi, MA Iqbal, SK Kim", venue: "Scientific Reports" },
+    { year: 2026, title: "Hybrid deep learning for three-way classification of human-written, AI-generated, and AI-rephrased text", authors: "N Sadia, MN Khan, MS Faisal, MA Iqbal, MS Khan, SK Kim", venue: "Scientific Reports" },
+    { year: 2026, title: "Spatio-Temporal Hybrid Graph-Transformer Model for High-Fidelity Renewable Energy Forecasting", authors: "MA Iqbal, J Ahn, SK Kim", venue: "Journal of Modern Power Systems and Clean Energy" },
+    { year: 2026, title: "An incremental out-of-distribution learning framework for robust open-world object detection", authors: "MA Iqbal, JM Gil, SK Kim", venue: "Computers and Electrical Engineering 130, 110904" },
+    { year: 2026, title: "Bilateral Lesion-Guided Transformers with Patient-Level Graph Reasoning for Multi-label Retinal Disease Diagnosis", authors: "MA Iqbal, I Han, SK Kim", venue: "International Conference on Ubi-Media Computing, 331-342" },
+    { year: 2025, title: "Explainable AI Based Multi Class Skin Cancer Detection Enhanced by Meta Learning with Generative DDPM Data Augmentation", authors: "MD Ali, MA Iqbal, S Lee, X Duan, SK Kim", venue: "Applied Sciences 15(21), 11689" },
+    { year: 2025, title: "Tail-calibrated transformer autoencoding with prototype-guided mining for open-world object detection", authors: "MA Iqbal, YC Yoon, SK Kim", venue: "Applied Sciences 15(20), 10918" },
+    { year: 2025, title: "Attention-driven hybrid ensemble approach with Bayesian optimization for accurate energy forecasting in Jeju Island's renewable energy system", authors: "MA Iqbal, JM Gil, SK Kim", venue: "IEEE Access 13, 7986-8010" },
+    { year: 2024, title: "Attention-driven feature fusion integrating swin transformer and CNN models for improved ocular disease classification", authors: "MA Iqbal, J Kim, I Han, SK Kim", venue: "International Conference on Engineering and Emerging Technologies" },
+    { year: 2024, title: "Redefining object detection for open-world settings: A framework for simultaneous identification of known and unknown classes", authors: "MA Iqbal, YC Yoon, SK Kim", venue: "IEEE Access 12, 179707-179725" },
+    { year: 2024, title: "Towards next generation game development: a comprehensive analysis of game engines technologies", authors: "SK Kim, IM Ali, MW Ha", venue: "Journal of the Korea Society of Computer and Information 29(10), 165-173" },
+    { year: 2024, title: "Synthetic image generation using conditional GAN-provided single-sample face image", authors: "MA Iqbal, W Jadoon, SK Kim", venue: "Applied Sciences 14(12), 5049" },
+    { year: 2023, title: "Improved open world object detection using class-wise feature space learning", authors: "MA Iqbal, YC Yoon, MUS Khan, SK Kim", venue: "IEEE Access 11, 131221-131236" },
+    { year: 2023, title: "Computer vision as a platform in Metaverse", authors: "IM Ali, HY Kwak, SK Kim", venue: "Journal of the Korea Society of Computer and Information" },
     { year: 2026, title: "A large-scale annotated Urdu corpus and deep learning benchmark for mental health classification", authors: "M Fatima, MS Khan, MS Faisal, T Shahzad, MA Iqbal, SK Kim", venue: "Scientific Reports" },
     { year: 2023, title: "Role of zoning in facial expression using deep learning", authors: "T Shahzad, K Iqbal, MA Khan, N Iqbal", venue: "IEEE Access 11, 16493-16508" },
     { year: 2021, title: "TrafficBERT: Pre-trained model with large-scale data for long-range traffic flow forecasting", authors: "KH Jin, JA Wi, EJ Lee, SJ Kang, SK Kim, YB Kim", venue: "Expert Systems with Applications 186, 115738" },
@@ -145,6 +172,26 @@ window.UI = {
     explore: { en: "Our Research", ko: "연구 소개" },
     joinUs: { en: "Join Us", ko: "함께하기" },
     scholar: { en: "Google Scholar", ko: "구글 스칼라" },
+    stPubs: { en: "Publications", ko: "논문" },
+    stRecent: { en: "Papers since 2023", ko: "최근 3년 논문" },
+    stAreas: { en: "Research areas", ko: "연구 분야" },
+    stPeople: { en: "Lab members & alumni", ko: "구성원 및 졸업생" },
+    recent: { en: "Recent Publications", ko: "최근 논문" },
+    recentSub: { en: "Latest work from the lab", ko: "연구실의 최신 연구 성과" },
+    timeline: { en: "Latest News", ko: "최근 소식" },
+    all2: { en: "All", ko: "전체" },
+    perYear: { en: "Papers per year (click a bar to filter)", ko: "연도별 논문 수 (막대를 눌러 필터)" },
+    shown: { en: "papers shown", ko: "건 표시" },
+    scroll: { en: "Scroll", ko: "스크롤" },
+    ctaTitle: { en: "Interested in joining the lab?", ko: "연구실에 관심이 있으신가요?" },
+    tVision: { en: "Vision", ko: "비전" },
+    tGraphics: { en: "Graphics", ko: "그래픽스" },
+    tXR: { en: "AR / VR", ko: "AR / VR" },
+    tML: { en: "ML & Data", ko: "ML & 데이터" },
+    heroChip1: { en: "Object Detection", ko: "객체 검출" },
+    heroChip2: { en: "Face & Expression", ko: "얼굴·표정" },
+    heroChip3: { en: "3D & Graphics", ko: "3D·그래픽스" },
+    heroChip4: { en: "AR / VR", ko: "AR / VR" },
     rights: { en: "All rights reserved.", ko: "모든 권리 보유." }
   }
 };
