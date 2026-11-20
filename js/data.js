@@ -83,7 +83,7 @@ window.LAB = {
       },
       {
         name: { en: "Muhammad Danish Ali", ko: "무함마드 다니시 알리" },
-        role: { en: "Graduate Student", ko: "대학원생" },
+        role: { en: "Ph.D. Student", ko: "박사과정" },
         photo: "img/danish.png",
         interests: [
           { en: "Medical Image Analysis", ko: "의료 영상 분석" },
