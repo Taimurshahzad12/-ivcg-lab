@@ -68,6 +68,30 @@ window.LAB = {
         ],
         email: "",
         scholar: "https://scholar.google.com/citations?user=ZRskuloAAAAJ&hl=en"
+      },
+      {
+        name: { en: "Muhammad Sheharyar Asif", ko: "무함마드 셰하르야르 아시프" },
+        role: { en: "Ph.D. Student", ko: "박사과정" },
+        photo: "img/sheharyar.jpeg",
+        interests: [
+          { en: "Computer Vision", ko: "컴퓨터 비전" },
+          { en: "ECG Biometrics", ko: "심전도 생체인식" },
+          { en: "Deep Learning", ko: "딥러닝" }
+        ],
+        email: "",
+        scholar: "https://scholar.google.com/citations?user=u3uEqzgAAAAJ&hl=en"
+      },
+      {
+        name: { en: "Muhammad Danish Ali", ko: "무함마드 다니시 알리" },
+        role: { en: "Graduate Student", ko: "대학원생" },
+        photo: "img/danish.png",
+        interests: [
+          { en: "Medical Image Analysis", ko: "의료 영상 분석" },
+          { en: "Deep Learning", ko: "딥러닝" },
+          { en: "Bioinformatics", ko: "생물정보학" }
+        ],
+        email: "",
+        scholar: "https://scholar.google.com/citations?user=YTdcwq8AAAAJ&hl=en"
       }
     ],
     ms: [
@@ -101,6 +125,14 @@ window.LAB = {
 
   // Publications (from Google Scholar). Titles stay in English.
   publications: [
+    { year: 2025, title: "Deep Learning for Skin Cancer Classification Using a Fine Tuned EfficientNetB0 Framework", authors: "MD Ali, IC Han, SK Kim", venue: "Korea Computer Information Society Conference 33(2), 747-748" },
+    { year: 2025, title: "Automatic melanoma and non-melanoma skin cancer diagnosis using advanced adaptive fine-tuned convolution neural networks", authors: "MA Khan, T Mazhar, MD Ali, UF Khattak, T Shahzad, MM Saeed, et al.", venue: "Discover Oncology 16(1), 645" },
+    { year: 2025, title: "Advanced Skin Cancer Detection Using Dual Partial Attention Aware Multiple Convolutional Framework", authors: "MD Ali, IC Han, SK Kim", venue: "Journal of Internet of Things and Convergence 11(5), 223-230" },
+    { year: 2025, title: "An advanced deep learning framework for skin cancer classification", authors: "MD Ali, T Mazhar, T Shahzad, WU Rehman, M Shahid, H Hamam", venue: "The Review of Socionetwork Strategies 19(1), 111-130" },
+    { year: 2024, title: "Classification of semg signal based hand movements by using support vector machine", authors: "SR Zahra, S Ismail, MD Ali, MA Khan, MY Darus, T Mazhar", venue: "2024 IEEE 6th Symposium on Computers & Informatics (ISCI), 176-181" },
+    { year: 2023, title: "Breast cancer classification through meta-learning ensemble technique using convolution neural networks", authors: "MD Ali, A Saleem, H Elahi, MA Khan, MI Khan, MM Yaqoob, et al.", venue: "Diagnostics 13(13), 2242" },
+    { year: 2023, title: "Design and analysis of an improved deep ensemble learning model for melanoma skin cancer classification", authors: "MH Javid, W Jadoon, H Ali, MD Ali", venue: "2023 4th International Conference on Advancements in Computational Sciences" },
+    { year: 2023, title: "Hybrid Deep Learning and Discrete Wavelet Transform-Based ECG Biometric Recognition for Arrhythmic Patients and Healthy Controls", authors: "MS Asif, MS Faisal, MN Dar, M Hamdi, H Elmannai, A Rizwan, M Abbas", venue: "Sensors 23(10), 4635" },
     { year: 2026, title: "ConvWaveFormer: a hybrid wavelet and CNN-transformer framework for ECG biometric identification", authors: "MS Asif, Y Choi, MA Iqbal, SK Kim", venue: "Scientific Reports" },
     { year: 2026, title: "Hybrid deep learning for three-way classification of human-written, AI-generated, and AI-rephrased text", authors: "N Sadia, MN Khan, MS Faisal, MA Iqbal, MS Khan, SK Kim", venue: "Scientific Reports" },
     { year: 2026, title: "Spatio-Temporal Hybrid Graph-Transformer Model for High-Fidelity Renewable Energy Forecasting", authors: "MA Iqbal, J Ahn, SK Kim", venue: "Journal of Modern Power Systems and Clean Energy" },
