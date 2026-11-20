@@ -95,7 +95,23 @@ window.LAB = {
       }
     ],
     ms: [
-      // { name:{en:"",ko:""}, role:{en:"M.S. Student",ko:"석사과정"}, photo:"img/x.jpg", interests:[{en:"",ko:""}], email:"", scholar:"" }
+      {
+        name: { en: "Muhammad Uzair", ko: "무함마드 우자이르" },
+        role: { en: "M.S. Student", ko: "석사과정" },
+        photo: "img/Uzair.jpg",
+        interests: [
+          { en: "Computer Vision", ko: "컴퓨터 비전" },
+          { en: "Deep Learning", ko: "딥러닝" },
+          { en: "Digital Image Processing", ko: "디지털 영상 처리" },
+          { en: "Machine Learning", ko: "머신러닝" }
+        ],
+        about: {
+          en: "B.S. in Computer Science, Islamia College Peshawar, Pakistan (2025). Develops intelligent systems and advanced algorithms for real-world problems in computer vision and image analysis.",
+          ko: "파키스탄 이슬라미아 칼리지 페샤와르 컴퓨터과학 학사 (2025). 컴퓨터 비전과 영상 분석 분야의 실세계 문제를 위한 지능형 시스템과 알고리즘을 개발합니다."
+        },
+        email: "",
+        scholar: ""
+      }
     ],
     undergrad: [],
     alumni: [

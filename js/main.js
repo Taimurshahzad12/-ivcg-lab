@@ -52,7 +52,7 @@
     return a.join("");
   }
   const memberCard = (m, i = 0) => `<div class="card member rv d${(i % 4) + 1}">${avatar(m.photo, m.name.en)}
-      <h3>${esc(t(m.name))}</h3><div class="role">${esc(t(m.role))}</div>
+      <h3>${esc(t(m.name))}</h3><div class="role">${esc(t(m.role))}</div>${m.about ? `<p style="font-size:.88rem;margin:10px 0 0">${esc(t(m.about))}</p>` : ""}
       <div class="tags">${(m.interests || []).map((x) => `<span class="tag">${esc(t(x))}</span>`).join("")}</div>
       <div class="links">${links(m)}</div></div>`;
   const people = () => [...L.members.phd, ...L.members.ms, ...L.members.undergrad];
